@@ -1,161 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prasanna Kumar Vechha | Data & Analytics Portfolio</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasanna Kumar | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<nav class="navbar">
-  <div class="logo">Prasanna</div>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Prasanna Kumar Vechha</h1>
+            <p class="subtitle">Data Analyst | Business Intelligence | Analytics</p>
+            <p class="tagline">I turn messy data into decisions that matter.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="mailto:kprasanna713@gmail.com" class="btn btn-secondary">Email Me</a>
+            </div>
+        </div>
+    </section>
 
-  <ul class="nav-links">
-    <li><button onclick="showSection('home')">Home</button></li>
-    <li><button onclick="showSection('projects')">Projects</button></li>
-    <li><button onclick="showSection('skills')">Skills</button></li>
-    <li><button onclick="showSection('contact')">Contact</button></li>
-  </ul>
+    <section class="about fade-in" id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a data analyst with hands-on experience delivering analytics and automation solutions in large operational environments. At BMW Group, I worked closely with stakeholders to turn complex logistics and inventory data into clear insights that saved time, reduced costs, and improved decision-making.</p>
+                    <p>I care less about fancy dashboards and more about whether people actually use what I build. My work focuses on clarity, impact, and adoption.</p>
+                    <p><strong>What drives me:</strong> Building things that make work easier. Whether it's Power BI dashboards used daily by 50+ stakeholders, automating six weeks of quarterly reconciliation, or deploying a GenAI chatbot that lets warehouse managers ask questions in plain English.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>£1.5M</h3>
+                            <p>Cost Recovery</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Daily Users</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50%</h3>
+                            <p>Time Saved</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop" alt="Data Analytics">
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
-</nav>
+    <section class="projects fade-in" id="projects">
+        <div class="section-content">
+            <h2>Selected Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>BMW Logistics KPI Automation</h3>
+                    </div>
+                    <div class="project-body">
+                        <p><strong>Problem:</strong> Manual KPI reporting across logistics teams was slow and inconsistent.</p>
+                        <p><strong>Solution:</strong> Built automated Power BI dashboards backed by SQL and AWS pipelines.</p>
+                        <p><strong>Impact:</strong> 50+ daily users · 50% reduction in manual reporting · Improved data accuracy</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">SAP</span>
+                        </div>
+                    </div>
+                </div>
 
-<main>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>£1.5M Cost Recovery – Inventory Analytics</h3>
+                    </div>
+                    <div class="project-body">
+                        <p><strong>Problem:</strong> Limited visibility into inventory inefficiencies across warehouses.</p>
+                        <p><strong>Solution:</strong> Consolidated multi-source data and performed root-cause analysis.</p>
+                        <p><strong>Impact:</strong> £1.5M cost recovery · 30% year-on-year inventory cost reduction</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
 
-<!-- HOME -->
-<section id="home" class="panel active">
-  <h1>Turning complex operational data into decisions leaders can act on</h1>
-  <p>
-    Data Analyst with hands-on experience delivering analytics, automation,
-    and AI-enabled data products across large-scale logistics and manufacturing
-    environments. I focus on clarity, impact, and building solutions people
-    actually use.
-  </p>
-</section>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Self-Service AI Analytics Chatbot</h3>
+                    </div>
+                    <div class="project-body">
+                        <p><strong>Problem:</strong> Business users depended on analysts for every data question.</p>
+                        <p><strong>Solution:</strong> Built an AI-powered chatbot allowing natural-language data queries.</p>
+                        <p><strong>Impact:</strong> Faster access to insights · Reduced analyst dependency · 50+ users</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AWS Athena</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">LangChain</span>
+                        </div>
+                    </div>
+                </div>
 
-<!-- PROJECTS -->
-<section id="projects" class="panel">
-  <h2>Selected Work</h2>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Warehouse Stock Optimization ML Model</h3>
+                    </div>
+                    <div class="project-body">
+                        <p><strong>Problem:</strong> Inefficient stock allocation and poor demand forecasting.</p>
+                        <p><strong>Solution:</strong> Developed ML-based optimization using time-series forecasting and clustering.</p>
+                        <p><strong>Impact:</strong> Improved inventory planning · Optimized storage allocation · Enhanced stock rotation</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">K-Means</span>
+                            <span class="tech-tag">SAP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="card" onclick="openModal('modal1')">
-    <h3>Enterprise KPI Automation — BMW Group</h3>
-    <p>Power BI dashboards and automated reporting pipelines used daily across logistics teams.</p>
-  </div>
+    <section class="skills fade-in" id="skills">
+        <div class="section-content">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">💻</div>
+                    <h3>Programming & Analytics</h3>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">R</div>
+                    <div class="skill-item">Statistical Analysis</div>
+                    <div class="skill-item">Machine Learning</div>
+                </div>
 
-  <div class="card" onclick="openModal('modal2')">
-    <h3>Inventory Analytics & £1.5M Cost Recovery</h3>
-    <p>Data-led identification of inefficiencies driving measurable cost savings.</p>
-  </div>
+                <div class="skill-category">
+                    <div class="skill-icon">📊</div>
+                    <h3>BI & Visualization</h3>
+                    <div class="skill-item">Power BI</div>
+                    <div class="skill-item">Tableau</div>
+                    <div class="skill-item">QuickSight</div>
+                    <div class="skill-item">SSRS</div>
+                    <div class="skill-item">Dashboard Design</div>
+                </div>
 
-  <div class="card" onclick="openModal('modal3')">
-    <h3>Self-Service Analytics via Generative AI</h3>
-    <p>AI chatbot enabling non-technical users to access trusted data insights.</p>
-  </div>
-</section>
+                <div class="skill-category">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud & Data Engineering</h3>
+                    <div class="skill-item">AWS (S3, Athena, Lambda)</div>
+                    <div class="skill-item">ETL/ELT Pipelines</div>
+                    <div class="skill-item">Data Warehousing</div>
+                    <div class="skill-item">Redshift</div>
+                    <div class="skill-item">API Integration</div>
+                </div>
 
-<!-- SKILLS -->
-<section id="skills" class="panel">
-  <h2>Core Skills</h2>
-  <p>
-    SQL · Python · Power BI · AWS (Athena, S3, Lambda) · Tableau · QuickSight ·
-    ETL / ELT · Data Warehousing · Machine Learning · Statistical Analysis ·
-    SAP · Data Governance · Stakeholder Management · Agile Delivery
-  </p>
-</section>
+                <div class="skill-category">
+                    <div class="skill-icon">🎯</div>
+                    <h3>Business & Soft Skills</h3>
+                    <div class="skill-item">Stakeholder Management</div>
+                    <div class="skill-item">Business Intelligence</div>
+                    <div class="skill-item">Process Optimization</div>
+                    <div class="skill-item">Agile Methodologies</div>
+                    <div class="skill-item">SAP</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- CONTACT -->
-<section id="contact" class="panel">
-  <h2>Let’s Talk</h2>
-  <p>
-    Based in Oxford · Open to London & surrounding areas<br><br>
-    📧 <strong>kprasanna713@gmail.com</strong><br>
-    📱 <strong>+44 7721928541</strong><br><br>
-    If you’re looking for someone who combines strong technical foundations
-    with business understanding and clear communication, I’d be happy to talk.
-  </p>
-</section>
+    <section class="experience fade-in" id="experience">
+        <div class="section-content">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>BMW Group – Physical Logistics Data & Digitalization</h3>
+                    <p class="period">July 2024 – July 2025 | Oxford, UK</p>
+                    <ul>
+                        <li>Owned end-to-end KPI reporting for logistics and inventory teams using Power BI dashboards</li>
+                        <li>Built serverless data extraction pipeline using AWS Athena, SQL, and Pandas</li>
+                        <li>Enabled secure, self-service data access for 50+ users across plant departments</li>
+                        <li>Reduced manual KPI tracking workload by 50% through automation</li>
+                        <li>Contributed to £1.5M cost recovery initiative through data analysis</li>
+                        <li>Achieved 30% year-on-year inventory cost reduction through analytics</li>
+                    </ul>
+                </div>
 
-</main>
+                <div class="timeline-item">
+                    <h3>Marketing Coordinator – Techfest IIT Bombay</h3>
+                    <p class="period">January 2019 – June 2019 | Mumbai, India</p>
+                    <ul>
+                        <li>Coordinated marketing initiatives for Asia's largest science festival (175,000+ attendees)</li>
+                        <li>Executed email marketing campaigns targeting nationwide college networks</li>
+                        <li>Negotiated strategic partnerships securing up to 30% cost reductions</li>
+                        <li>Analyzed campaign performance metrics to optimize outreach effectiveness</li>
+                    </ul>
+                </div>
+            </div>
 
-<!-- MODALS -->
+            <div class="education-section">
+                <h2>Education</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h3>MSc Engineering Business Management</h3>
+                        <p class="institution">University of Exeter</p>
+                        <p class="period">2023 - 2025</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>B.Tech Mechanical Engineering</h3>
+                        <p class="institution">Indian Institute of Technology Bombay</p>
+                        <p class="period">2018 - 2023</p>
+                        <p class="achievement">🏆 All India Rank 305 out of 1.23M candidates (Top 0.025%)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div id="modal1" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal()">×</span>
-    <h3>Enterprise KPI Automation — BMW Group</h3>
-    <p>
-      Led end-to-end automation of logistics and inventory KPI reporting at
-      BMW’s MINI Plant in Oxford.
-    </p>
-    <p>
-      Built Power BI dashboards and SQL-backed data pipelines that became
-      the single source of truth for daily operational decision-making.
-      Automated SAP data extraction and validation workflows, reducing
-      manual reporting effort by 50% and improving data accuracy.
-    </p>
-    <p>
-      <strong>Impact:</strong><br>
-      • 50+ daily stakeholders<br>
-      • 20% improvement in operational efficiency<br>
-      • Significant reduction in manual reconciliation effort
-    </p>
-  </div>
-</div>
+    <section class="contact fade-in" id="contact">
+        <div class="section-content">
+            <h2>Let's Connect</h2>
+            <p class="contact-intro">Open to Data Analyst | Business Analyst | BI Analyst | Data Engineer roles in London & surrounding areas</p>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <h3>Location</h3>
+                    <p>Oxford, UK<br>Open to London & surrounding areas</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:kprasanna713@gmail.com">kprasanna713@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+447721928541">+44 7721928541</a></p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/prasanna-kumar-750990181/" target="_blank">Connect with me</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div id="modal2" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal()">×</span>
-    <h3>Inventory Analytics & £1.5M Cost Recovery</h3>
-    <p>
-      Analysed multi-warehouse inventory and logistics data to identify
-      inefficiencies and root causes of cost leakage.
-    </p>
-    <p>
-      Designed consolidated reporting layers and applied analytical
-      techniques to surface actionable insights for leadership.
-      Findings directly supported operational changes contributing to
-      £1.5M in recovered value and a 30% year-on-year reduction in
-      inventory-related costs.
-    </p>
-    <p>
-      <strong>Impact:</strong><br>
-      • £1.5M cost recovery<br>
-      • 30% reduction in inventory costs<br>
-      • Improved planning accuracy across sites
-    </p>
-  </div>
-</div>
+    <footer>
+        <p>© 2026 Prasanna Kumar Vechha · Built with passion for data and design</p>
+    </footer>
 
-<div id="modal3" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal()">×</span>
-    <h3>Self-Service Analytics via Generative AI</h3>
-    <p>
-      Designed and built a secure, serverless Generative AI chatbot to
-      enable self-service data access for non-technical users.
-    </p>
-    <p>
-      Implemented AWS Athena, SQL, Pandas, LangChain, and Pydantic validation
-      to allow warehouse managers to query operational data in plain English,
-      with full governance controls including role-based access and audit
-      logging.
-    </p>
-    <p>
-      <strong>Impact:</strong><br>
-      • 50+ users enabled with self-service analytics<br>
-      • Reduced analyst dependency<br>
-      • Improved data governance and consistency
-    </p>
-  </div>
-</div>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
