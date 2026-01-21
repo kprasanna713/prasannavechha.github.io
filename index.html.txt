@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasanna Kumar | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Prasanna Kumar Vechha</h1>
+    <p class="subtitle">Data Analyst | Business Intelligence | Analytics</p>
+    <p class="tagline">I turn messy data into decisions that matter.</p>
+
+    <div class="links">
+        <a href="mailto:kprasanna713@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/prasanna-kumar-750990181/" target="_blank">LinkedIn</a>
+        <a href="#">Download CV</a>
+    </div>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I’m a data analyst with hands-on experience delivering analytics and automation solutions
+        in large operational environments. At BMW Group, I worked closely with stakeholders to
+        turn complex logistics and inventory data into clear insights that saved time, reduced costs,
+        and improved decision-making.
+    </p>
+    <p>
+        I care less about fancy dashboards and more about whether people actually use what I build.
+        My work focuses on clarity, impact, and adoption.
+    </p>
+</section>
+
+<section>
+    <h2>Selected Projects</h2>
+
+    <div class="project">
+        <h3>BMW Logistics KPI Automation</h3>
+        <p><strong>Problem:</strong> Manual KPI reporting across logistics teams was slow and inconsistent.</p>
+        <p><strong>Solution:</strong> Built automated Power BI dashboards backed by SQL and AWS pipelines.</p>
+        <p><strong>Impact:</strong> 50+ daily users · 50% reduction in manual reporting · Improved data accuracy</p>
+        <p class="tech">Tech: SQL, Power BI, AWS, SAP</p>
+    </div>
+
+    <div class="project">
+        <h3>£1.5M Cost Recovery – Inventory Analytics</h3>
+        <p><strong>Problem:</strong> Limited visibility into inventory inefficiencies across warehouses.</p>
+        <p><strong>Solution:</strong> Consolidated multi-source data and performed root-cause analysis.</p>
+        <p><strong>Impact:</strong> £1.5M cost recovery · 30% year-on-year inventory cost reduction</p>
+        <p class="tech">Tech: SQL, Power BI, Python</p>
+    </div>
+
+    <div class="project">
+        <h3>Self-Service AI Analytics Chatbot</h3>
+        <p><strong>Problem:</strong> Business users depended on analysts for every data question.</p>
+        <p><strong>Solution:</strong> Built an AI-powered chatbot allowing natural-language data queries.</p>
+        <p><strong>Impact:</strong> Faster access to insights · Reduced analyst dependency · 50+ users</p>
+        <p class="tech">Tech: Python, AWS Athena, Pandas, LangChain</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>How I Work</h2>
+    <ul>
+        <li>Start with the business question, not the tool</li>
+        <li>Build simple, iterate fast</li>
+        <li>Focus on adoption and usability</li>
+        <li>Translate data into clear decisions</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <p>
+        SQL · Python · Power BI · AWS · Tableau · Data Warehousing · ETL · Machine Learning ·
+        Statistical Analysis · Business Intelligence · SAP · Stakeholder Management
+    </p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>
+        Based in Oxford · Open to London & surrounding areas<br>
+        📧 <a href="mailto:kprasanna713@gmail.com">kprasanna713@gmail.com</a><br>
+        📱 +44 7721928541
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Prasanna Kumar Vechha</p>
+</footer>
+
+</body>
+</html>
